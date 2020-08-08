@@ -39,4 +39,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://project-4A_Red_Queen's-Race.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build project-4A_Red_Queen's-Race.surge.sh --token ${{secrets.SURGE_TOKEN}}
