@@ -1,0 +1,41 @@
+.sky, .earth {
+    position: absolute;
+    left: 0;
+    height: 50vh;
+    width: 100%;
+}
+
+.earth {
+    background:brown repeat-x 0 0 /  100% auto;  
+    width: 100%;
+    bottom: 0;
+}
+
+.sky {
+    background: #246e89 url("https://edexfe-public.s3.amazonaws.com/resourceFeaturedImage/2018/616bb90a-7e83-4504-8b4f-9a3e1e1c71fe.706e6faf-7775-4d76-a89b-c0fb4a16be94.jpg") repeat-x  100% 100% / auto 100%;
+    top: 0;
+}
+
+.alice {
+    position: absolute;
+    top: 0; left: 40%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 80%;
+    max-width: 450px; /*height: 783px / 2*/
+    z-index: 1;
+}
+
+.alice:before {
+    content: " ";
+    display: block;
+    padding-top: 87%;
+}
+
+.alice img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;  
+}
+  
+  
