@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Queen from "./4A-RedQueen'sRace/App"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">     
-      <h1> RED QUEEN's RACE </h1>
+    <div className="App">
+      <Queen />    
     </div>
   );
 }
