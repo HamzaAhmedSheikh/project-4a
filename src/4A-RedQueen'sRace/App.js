@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useRef } from 'react';
 import './style.css';
-function Sky() {
+function RedQueen() {
  
   const aliceSprite = useRef(null);
   const foreground = useRef(null);
@@ -111,4 +111,4 @@ function Sky() {
     </div>
   );
 }
-export default Sky;
+export default RedQueen;
